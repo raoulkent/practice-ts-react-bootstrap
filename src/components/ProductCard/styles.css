@@ -1,0 +1,42 @@
+.ProductCard {
+  width: 140px;
+  border-radius: 15px; /* 5px rounded corners */
+  padding: 10px;
+
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.ProductCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ImageArea {
+  position: relative;
+}
+
+.ProductCard .CardFavourite {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.ProductCard .CardImage {
+  position: relative;
+}
+
+.ProductCard .Brand {
+  font-size: 14px;
+}
+
+.ProductCard .ProductName {
+  font-size: 16px;
+  position: relative;
+}
+
+.ProductCard .Price {
+  margin-top: 10px;
+  color: red;
+}
+/* .ProductCard  */
